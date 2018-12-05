@@ -18,7 +18,7 @@
     "e2e": "ng e2e",
     "b-electron": "ng build --base-href ./ && electron .",
     "electron": "electron .",
-    "dist": "ng build --base-href ./ && build"
+    "dist": "ng build --prod --base-href ./ && build"
   },
   "private": true,
   "dependencies": {
